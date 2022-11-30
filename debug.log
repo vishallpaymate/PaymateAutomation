@@ -1,0 +1,59 @@
+[0208/130243.878:ERROR:exception_handler_server.cc(526)] ConnectNamedPipe: The pipe is being closed. (0xE8)
+[0213/175454.832:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0402/160840.695:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0402/160840.735:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0402/160840.735:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0419/173659.332:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0419/173659.374:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0419/173659.374:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0422/094517.432:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0422/094517.432:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0422/094517.432:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0422/094517.432:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0502/151901.813:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0502/151901.840:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0502/151901.840:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0503/141509.866:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0503/141509.881:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0503/141509.881:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0521/135447.341:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0521/135447.433:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0521/135447.434:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0617/131654.213:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0617/131654.232:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0617/131654.232:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0711/171659.970:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0711/171700.074:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0711/171700.074:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0720/115857.416:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[1014/140903.137:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1014/150853.718:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1014/175157.970:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1014/183935.325:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/201328.090:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/203538.255:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/135059.174:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1103/121559.054:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1204/134621.011:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1204/140141.254:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1204/143618.187:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1209/111151.635:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1214/141244.608:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1217/183531.262:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1218/152311.735:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0105/153747.212:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0107/150908.977:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0108/181621.002:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sam\AppData\Local\Temp\scoped_dir19820_525192050\Crashpad\attachments\cf37661a-18e6-4b40-9cda-8a05b0d4202b: The system cannot find the path specified. (0x3)
+[0108/181621.409:ERROR:process_memory_win.cc(73)] ReadMemory at 0x225a08e6800 of 6656 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0108/181621.409:ERROR:process_snapshot_win.cc(322)] failed to read unloaded module data
+[0108/183227.668:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0108/191342.261:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0111/123805.774:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0111/161510.278:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0113/144731.046:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0113/145814.432:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0113/171124.424:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0115/124156.156:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0120/190731.249:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0125/150911.830:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0128/114137.204:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

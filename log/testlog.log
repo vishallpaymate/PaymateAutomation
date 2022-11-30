@@ -1,0 +1,8 @@
+2020-01-30 17:46:16,199 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-30 17:46:16,216 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\vishal.l\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
+2020-01-30 17:46:36,948 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-30 17:46:36,952 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\vishal.l\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
+2020-01-30 17:46:57,540 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-30 17:46:57,544 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\vishal.l\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe
+2021-01-08 18:16:21,626 - org.apache.http.impl.execchain.RetryExec -INFO - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:24219: Connection reset
+2021-01-08 18:16:21,679 - org.apache.http.impl.execchain.RetryExec -INFO - Retrying request to {}->http://localhost:24219

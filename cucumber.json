@@ -1,0 +1,381 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7555478597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "login with valid credentials",
+        "description": "",
+        "id": "login-features;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1124525476,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87394961,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "Login_Steps.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83268527,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter userName as \"vijay19@grr.la\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vijay19@grr.la",
+                  "offset": 21
+                }
+              ],
+              "location": "Login_Steps.iEnterUserNameAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70723963,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Enter Password as  \"Paymate@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paymate@123",
+                  "offset": 22
+                }
+              ],
+              "location": "Login_Steps.iEnterPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3071936833,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press Login",
+            "match": {
+              "location": "Login_Steps.iPressLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34702,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be Login successfully",
+            "match": {
+              "location": "Login_Steps.iShouldBeLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43287027,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be Land on Home page",
+            "match": {
+              "location": "Login_Steps.iShouldBeLandOnHomePage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7517620190,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "login with invalid credentials",
+        "description": "",
+        "id": "login-features;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1116404305,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152747,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on the login page",
+            "match": {
+              "location": "Login_Steps.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93682036,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter InvalidUserName as \"viy19@grr.la\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "viy19@grr.la",
+                  "offset": 28
+                }
+              ],
+              "location": "Login_Steps.iEnterInvalidUserNameAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72916174,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Enter IvalidPassword as  \"ymate@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ymate@123",
+                  "offset": 28
+                }
+              ],
+              "location": "Login_Steps.iEnterIvalidPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3076756458,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I press Login",
+            "match": {
+              "location": "Login_Steps.iPressLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38115,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should not be loggedIn",
+            "match": {
+              "location": "Login_Steps.iShouldNotBeLoggedIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48177764,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be see proper validation message",
+            "match": {
+              "location": "Login_Steps.iShouldBeSeeProperValidationMessage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6897563620,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login with valid user name and invalid password",
+        "description": "",
+        "id": "login-features;login-with-valid-user-name-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1094627244,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150186,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on the login page",
+            "match": {
+              "location": "Login_Steps.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111751364,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I Enter InvalidUserName as \"vijay19@grr.la\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vijay19@grr.la",
+                  "offset": 28
+                }
+              ],
+              "location": "Login_Steps.iEnterInvalidUserNameAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78953507,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Enter IvalidPassword as  \"ymate@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ymate@123",
+                  "offset": 28
+                }
+              ],
+              "location": "Login_Steps.iEnterIvalidPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3076406592,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I press Login",
+            "match": {
+              "location": "Login_Steps.iPressLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27875,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should not be loggedIn",
+            "match": {
+              "location": "Login_Steps.iShouldNotBeLoggedIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3029406997,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should get mail",
+            "match": {
+              "location": "Login_Steps.iShouldGetMail()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Features",
+    "description": "I want to use this template for my Login Page",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  }
+]
